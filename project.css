@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top:80 px;
+    list-style-type: none;
+
+}
+a{
+    display: flex;
+     width: 200px;
+     background-color:#717171;
+     color:white;
+     padding: 15px;
+     font: size 0.8em; 
+     text-decoration: none;
+     text-align: center;
+}
+a:hover{
+    background-color:thistle;
+}
+img{
+  height: 500px;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width:100% ;
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.img1{
+
+  height: 300px;
+  width: 300px;
+}
+
+.img2{
+
+  height: 300px;
+  width: 300px;
+}
+
+.img3{
+
+  height: 300px;
+  width: 300px;
+}
+
+.img4{
+
+  height: 300px;
+  width: 300px;
+}
+
+.agri{
+  padding:0px 20px 0px 20px;
+}
+
+.ib{
+  padding:0px 20px 0px 20px;
+}
+
+.Ind{
+  padding:0px 20px 0px 20px;
+}
+
+.Arogya{
+  padding:0px 20px 0px 20px;
+}
+
+.info{
+
+ font-weight: bold;
+}
+
+.ADD1{
+  padding:0px 40px 0px 40px;
+  width:700px;
+}
+
+.ADD2{
+  padding:0px 40px 0px 40px;
+  width: 700px;
+}
+
+.car{
+  padding:0px 50px 0px 50px;
+}
+
+.story{
+  padding:0px 20px 0px 20px;
+}
+
+.botton{
+  padding:0px 0px 0px 150px;
+
+}
+
+.wimg1{
+
+  height: 300px;
+  width: 300px;
+}
+
+.wimg2{
+
+  height: 300px;
+  width: 300px;
+}
+
+.wimg3{
+
+  height: 300px;
+  width: 300px;
+}
+
+.wimg4{
+
+  height: 300px;
+  width: 300px;
+}
+.whatsapp{
+  padding:0px 20px 0px 20px;
+}
+
+.internet{
+  padding:0px 20px 0px 20px;
+}
+
+.atm{
+  padding:0px 20px 0px 20px;
+}
+
+.video{
+  padding:0px 20px 0px 20px;
+}
+
+
+
+
+.about{
+ padding:0px 40px 0px 40px;
+}
+.customer{
+  padding: 0px 40px 0px 40px;
+}
+.digital{
+  padding:0px 40px 0px 40px ;
+}
+.aadhar{
+  padding:0px 40px 0px 40px;
+}
+.contact{
+  padding:0px 40px 0px 40px;
+}
+
+.footer{
+  background-color: #717171;
+  padding:50px 0px 50px 0px;
+}
+
+
